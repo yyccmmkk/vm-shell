@@ -1,5 +1,5 @@
+#!/bin/bash
 # NAT 网卡模式联网设置
-
 fileName= `find /etc/sysconfig/network-scripts/ -name "ifcfg-enp0s*"`
 #上网设置
 sed -i -r 's/^(ONBOOT=)(yes|no)/\1yes/g' /etc/sysconfig/network-scripts/$fileName

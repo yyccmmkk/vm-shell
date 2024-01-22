@@ -1,3 +1,4 @@
+#!/bin/bash
 #仓库不可用直接复制
 #git clone git@github.com:Wind4/vlmcsd.git
 tar -xzvf vlmcsd.tar.gz 
